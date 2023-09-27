@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "redshift-query-executor"
+version = "0.1.0"
+description = ""
+authors = ["Jefferson Mariano de Souza <158855+studiojms@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "redshift_query_executor"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2-binary = "^2.9.7"
+structlog = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
